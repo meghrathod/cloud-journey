@@ -1,5 +1,8 @@
 # Journey in cloud
 
+> [[tasks|Daily learning tasks]]
+
+
 ## 1. Discussing the landscape of the cloud
 
 ## 2. Discussing about various steps to be considered in the process of making a cloud native application
