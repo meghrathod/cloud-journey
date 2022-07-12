@@ -29,3 +29,9 @@
 * The current system has a few components which are ready to use like the policy and the client database.
 * While the current system doesn't have the required capability to handle the demand, the system can be extended to handle the demand.
 * Modules that currently not available are the system must be developed and tested in a span of 30 days.
+
+### Decision on the current system
+
+* It seems that the the current system has a few functional components that are good enough for use in the new system
+* However the system is not cloud native and incapable of handling 3x loads
+* So, I propose we use only the most essential 
