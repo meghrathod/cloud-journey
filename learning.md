@@ -1,5 +1,3 @@
-# Journey in cloud
-
 > [[tasks|Daily learning tasks]]
 
 
