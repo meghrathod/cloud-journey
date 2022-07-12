@@ -1,5 +1,3 @@
-# Business Insurance Problem
-
 ## Given Conditions
 
 * Currently 90% of all insurance contracts are handled by agents and only 10% are handled online.
@@ -34,4 +32,17 @@
 
 * It seems that the the current system has a few functional components that are good enough for use in the new system
 * However the system is not cloud native and incapable of handling 3x loads
-* So, I propose we use only the most essential 
+* So, I propose we use only the most essential modules of the current  system and develop rest of the new system.
+
+### Functional Requirements
+
+* A module that has displays all the various insurance schemes available (assumed to be available and functional in the current system)
+* A module that stores all the of these schemes
+* A module for purchase of schemes
+* A module to process user data before the purchase of a scheme
+* A module to check validity of a claim
+* A module to process the claim after checking its validity
+* Modules to validate and store user data
+* **Mainly a new platform that the agents can use for their clients to sell insurance and process this data faster**
+* All of this modules must comply to government rules and regulations 
+* These modules must be secure and the data must be properly handled

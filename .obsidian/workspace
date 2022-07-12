@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "learning.md",
+            "file": "Business Insurance Problem.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning.md",
+                "file": "Business Insurance Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "f196494421eb5168",
   "lastOpenFiles": [
+    "Business Insurance Problem.md",
     "learning.md",
-    "business-insurance-problem.md",
     "tasks.md"
   ]
 }

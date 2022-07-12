@@ -3,8 +3,7 @@
 ## 9th July 2022
 
 * [X] Research about DevOps, DevSecOps, K8s
-* [ ] Work on the [[business-insurance-problem|business problem]]
-  * [ ] Research the business problem on insurance
-  * [ ] Create Blocks of the tasks
-  * [ ] [[business-insurance-problem#Decision on the current system|Decide on whether to build or work on the current]]
-  * [ ] find out what all functional requirements are needed.
+* [ ] Work on the [[Business Insurance Problem|business problem]]
+  * [x] Research the business problem on insurance
+  * [x] [[Business Insurance Problem#Decision on the current system|Decide on whether to build or work on the current]]
+  * [ ] [[Business Insurance Problem#Functional Requirements|find out what all functional requirements are needed.]]
