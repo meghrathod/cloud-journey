@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e6387b7-5641-4fb4-a0e4-9c7e8451079b/deploy-status)](https://app.netlify.com/sites/meghs-cloud/deploys)
+
 > [[tasks|Daily learning tasks]]
 
 
