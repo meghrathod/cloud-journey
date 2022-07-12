@@ -24,15 +24,17 @@
 
 ### Assumptions
 
-* The current system has a few components which are ready to use like the policy and the client database.
+* These components in the system are already available and ready to use
+	* Data of the insurance policies that the company already has (sql as the data is is vertically larger with data types like string for policy content, number for amount)
+	* Data of all current users(noSQL databases - mongoDB: why? because this data has various types like string for names, numbers for salary, date format for date of birth, email IDs  )
 * While the current system doesn't have the required capability to handle the demand, the system can be extended to handle the demand.
 * Modules that currently not available are the system must be developed and tested in a span of 30 days.
 
 ### Decision on the current system
 
 * It seems that the the current system has a few functional components that are good enough for use in the new system
-* However the system is not cloud native and incapable of handling 3x loads
-* So, I propose we use only the most essential modules of the current  system and develop rest of the new system.
+* However the system is not cloud native and incapable of handling 3x loads (why ? the system runs on servers hosted in the insurance office facility and runs an ancient language(COBOL) that does not follow the 15 principle of cloud nativeness like easy maintainability, scalability, upgradibility, etc)
+* So, I propose we use only the most essential modules(existing data modules) of the current  system and develop rest of the new system.
 
 ### Functional Requirements
 
@@ -46,3 +48,6 @@
 * **Mainly a new platform that the agents can use for their clients to sell insurance and process this data faster**
 * All of this modules must comply to government rules and regulations 
 * These modules must be secure and the data must be properly handled
+
+### Flow of buying an insurance policy
+![[Insurance.png]]
