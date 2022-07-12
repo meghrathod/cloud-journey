@@ -50,4 +50,5 @@
 * These modules must be secure and the data must be properly handled
 
 ### Flow of buying an insurance policy
-![[Insurance.png]]
+![[Insurance.drawio.svg]]
+
