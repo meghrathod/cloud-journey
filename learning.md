@@ -23,7 +23,7 @@
 
 ## 3. Self Research
 
-### 3.1. DevOps
+### 3.1. [[DevOps]]
 
 * deliver applications and services at high velocity: evolving and improving products at a faster pace
 * automate the process of delivering software

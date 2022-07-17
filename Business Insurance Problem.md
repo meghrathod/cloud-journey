@@ -52,3 +52,29 @@
 ### Flow of buying an insurance policy
 ![[Insurance.drawio.svg]]
 
+### What all technologies I would like to use
+
+#### Existing tech:
+* Frontend: Vanilla HTML, CSS, Javascript
+* Hosting: Currently on-premise baremetal servers
+* Backend: COBOL
+* Database: only mySQL
+* Absent: CI/CD
+
+#### Proposed Tech with reasons:
+* Reactjs
+	* Why current is not correct? The vanilla frontend currently used is slow because every click required a new webpage to be loaded, there is a lot of redundancy in HTML and Javascript code
+	* Reactjs uses the idea of single page application which makes loading process as smooth as possible as not all elements have to be rendered every time an action is performed
+	* Reactjs also makes frontend modular as each component is treated seperately from the rest of the system
+	* Repetive and redundancy in coding is minimised as the build engine takes care of it
+* Hosting: Migrate from on-premise to Netlify(initially for the frontend) and Azure(for the backend), as this help remove the lower level of abstraction from a developer/Sysadmin of maintaining the server and increase the total uptime of the system, make the system more efficient and deploy content faster.
+* Backend: Expressjs and Node, due to it's simplicity in maintaining APIs and efficiency in delivering requests 
+>need to research on more backend technologies
+* Database
+	* Currently all transactions in database are SQL based, which is fine when it comes to transactions involving purchases and claims of insurance premium
+	* However, user registrations must be done on a noSQL database as it has different types of field that are not relational. mongoDB happens to be one such application that can help with storing user data.
+* CI/CD
+	* This is one major missing point in the current system which is very essential to make the system cloud first.
+	* CI or Continuous Integration is tech where every push to a repository triggers actions that can be defined by the development team. TDD or Test Driven Development is where one creates tests that evaluate the requirements of our Insurance platform before  actually creating the platform. Now whenever we make changes and push our code, the test can do security and functional checks on our code and give us updates on the performance of our applicate
+	* For the purposes of our Insurance platform, I suggest we use the GitHub actions tool for CI, we can even use the ones provided by LayerCI, etc
+	* CD or Continuous Delivery is the tech where we can release our platform continuosly without downtimes with new feature as they're ready. CD can also be used when we want to test a feature like insurance recommendations with only a subset of people 
