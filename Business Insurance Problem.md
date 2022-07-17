@@ -52,7 +52,7 @@
 ### Flow of buying an insurance policy
 ![[Insurance.drawio.svg]]
 
-### What all technologies I would like to use
+### Technical Requirements
 
 #### Existing tech:
 * Frontend: Vanilla HTML, CSS, Javascript
