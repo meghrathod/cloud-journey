@@ -69,7 +69,7 @@
 	* Repetive and redundancy in coding is minimised as the build engine takes care of it
 * Hosting: Migrate from on-premise to Netlify(initially for the frontend) and Azure(for the backend), as this help remove the lower level of abstraction from a developer/Sysadmin of maintaining the server and increase the total uptime of the system, make the system more efficient and deploy content faster.
 * Backend: Expressjs and Node, due to it's simplicity in maintaining APIs and efficiency in delivering requests 
->need to research on more backend technologies
+> need to research on more backend technologies
 * Database
 	* Currently all transactions in database are SQL based, which is fine when it comes to transactions involving purchases and claims of insurance premium
 	* However, user registrations must be done on a noSQL database as it has different types of field that are not relational. mongoDB happens to be one such application that can help with storing user data.
